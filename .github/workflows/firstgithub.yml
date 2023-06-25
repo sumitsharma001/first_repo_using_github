@@ -19,8 +19,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TF_ACTION_WORKING_DIR: 'terraform'
-        AWS_ACCESS_KEY_ID:  "AKIAXCPDKSEO2VW4X7ZY"
-        AWS_SECRET_ACCESS_KEY:  "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"
+        AWS_ACCESS_KEY_ID:  ""
+        AWS_SECRET_ACCESS_KEY:  ""
 
     - name: Terraform Validate
       uses: hashicorp/terraform-github-actions/validate@v0.3.7
@@ -30,5 +30,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TF_ACTION_WORKING_DIR: 'terraform'
-        AWS_ACCESS_KEY_ID:  "AKIAXCPDKSEO2VW4X7ZY"
-        AWS_SECRET_ACCESS_KEY:  "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"
+        AWS_ACCESS_KEY_ID:  ""
+        AWS_SECRET_ACCESS_KEY:  ""
